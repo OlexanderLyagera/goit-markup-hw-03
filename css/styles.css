@@ -1,6 +1,15 @@
 a {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
 .contact-link {
   color: #434455;
   /*slate*/
@@ -8,6 +17,8 @@ a {
 ul,
 ol {
   list-style-type: none; /* Прибирає маркери/цифри */
+  margin: 0;
+  padding-left: 0;
 }
 body {
   font-family: "roboto", sans-serif;
@@ -17,12 +28,27 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   /*slate*/
-
   background-color: #ffffff;
+}
+.container {
+  width: 1440px;
+  /*height: 24px;*/
+
+  /*align-items: center;*/
+  padding-inline: 156px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  /*white*/
+  padding: 24px 0 24px 156px;
+  gap: 76px;
 }
 .logo {
   font-family: "raleway", sans-serif;
-
+  width: 115px;
+  height: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -52,7 +78,15 @@ body {
   color: #404bbf;
   /*ocean*/
 }
-
+.nav {
+  flex-grow: 1;
+}
+.nav-list {
+  width: 261px;
+  height: 24px;
+  display: flex;
+  gap: 40px;
+}
 .nav-link {
   font-weight: 500;
 
@@ -61,7 +95,10 @@ body {
 .contact {
   font-style: normal;
 }
-
+.nav-contact {
+  display: flex;
+  gap: 40px;
+}
 .solutions,
 .footer {
   background-color: #2e2f42;
@@ -139,18 +176,17 @@ body {
 */
 
 .footer-text {
-  
   color: #f4f4fd;
   /*text-align: center;*/
 }
-.footer-logo{
+.footer-logo {
   font-family: "raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-   color: #f4f4fd;
+  color: #f4f4fd;
 }
 .team-title,
 .team-text {
