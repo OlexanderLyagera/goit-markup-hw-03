@@ -10,6 +10,9 @@ h3,
 p {
   margin: 0; /* Прибирає відступи */
 }
+img {
+  display: block; /* Прибирає нижній відступ */
+}
 ul,
 ol {
   list-style-type: none; /* Прибирає маркери/цифри */
@@ -191,7 +194,9 @@ body {
 .team-img {
   width: 264px;
   /* height: 260px;*/
-  margin-bottom: 32px;
+}
+.team-item-wrapper {
+  padding-top: 32px;
 }
 .team-item {
   width: 264px;
@@ -218,12 +223,12 @@ body {
 .portfolio-img {
   width: 360px;
   /*height: 300px;*/
-  margin-bottom: 32px;
 }
 .portfolio-item-wrapper {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 32px;
 }
 .footer-wrapper {
   padding-top: 100px;
