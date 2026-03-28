@@ -40,8 +40,8 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-wrapper {
-  max-width: 1128px;
-  padding-block: 24px;
+  /*max-width: 1128px;*/
+
   display: flex;
 
   /* justify-content: space-between;
@@ -89,6 +89,7 @@ body {
 }
 .nav-link {
   font-weight: 500;
+  padding-block: 24px;
   /*>
     padding-top: 24px;
     padding-bottom: 24px;
@@ -178,7 +179,7 @@ body {
   gap: 24px;
 }
 .features-item {
-  max-width: 264px;
+  width: 264px;
 }
 .features-item-title,
 .team-item-title,
