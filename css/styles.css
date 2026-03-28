@@ -89,6 +89,7 @@ body {
 }
 .nav-link {
   font-weight: 500;
+  display: block;
   padding-block: 24px;
   /*>
     padding-top: 24px;
